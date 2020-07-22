@@ -13,6 +13,9 @@ import 'vant/lib/index.css'
 // 设置动态设置rem基准值
 import 'amfe-flexible'
 
+// 加载相对时间
+import './utils/dayjs'
+
 // 注册使用 Vant 组件库
 Vue.use(Vant)
 

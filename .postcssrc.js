@@ -40,7 +40,9 @@ module.exports = {
 
       // 配置要转换的 CSS 属性
       // * 表示所有属性都要转换
-      propList: ['*']
+      propList: ['*'],
+      // 配置不要转换样式文件中的字号
+      exclude: 'github-markdown'
     }
   }
 };
